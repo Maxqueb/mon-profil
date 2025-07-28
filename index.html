@@ -8,7 +8,7 @@
         content="Profile page of Maxime Cyr-Légaré, an aspiring full-stack web developer from Quebec, Canada.">
     <!--Outil pour SEO-->
     <title>Maxime Cyr-Légaré - Aspiring Full Stack Developer</title>
-    <link rel="stylesheet" href="styles.css"><!--Lien vers la feuille de style CSS-->
+    <link rel="stylesheet" href="style.css"><!--Lien vers la feuille de style CSS-->
     <!--Favicon and icons-->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -107,11 +107,33 @@
                 </li>
             </ul>
         </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </fieldset>
+
+                <button type="submit">Send</button>
+            </form>
+            <p>Feel free to reach out to me via email or phone for any inquiries or collaboration opportunities.</p>
+        </section>
     </main>
     <footer>
         <p>© 2023 Maxime Cyr-Légaré</p>
         <address>
-            618-70 Boul des laurentides<br >
+            618-70 Boul des laurentides<br>
             Laval, Québec, Canada
         </address>
     </footer>
